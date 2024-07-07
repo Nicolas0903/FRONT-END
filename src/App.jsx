@@ -14,6 +14,7 @@ import CambiarPassword from "./componentes/CambiarPassword";
 import Producto from "./componentes/Producto";
 import Checkout from "./componentes/Checkout"
 import PedidoCompleto from "./componentes/PedidoCompleto"
+import ResultadosBusqueda from "./componentes/ResultadoBusqueda
 
 function App() {
   return (
