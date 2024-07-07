@@ -14,7 +14,7 @@ import CambiarPassword from "./componentes/CambiarPassword";
 import Producto from "./componentes/Producto";
 import Checkout from "./componentes/Checkout"
 import PedidoCompleto from "./componentes/PedidoCompleto"
-import ResultadosBusqueda from "./componentes/ResultadoBusqueda
+import ResultadosBusqueda from "./componentes/ResultadoBusqueda"
 
 function App() {
   return (
@@ -33,6 +33,8 @@ function App() {
         <Route path="/producto/:nombre" element={<Producto />} /> 
         <Route path="/Checkout" element={<Checkout/>} />
         <Route path="/PedidoCompleto" element={<PedidoCompleto/>} />
+        <Route path="/ResultadoBusqueda" element={<ResultadoBusqueda/>} />
+        
       </Routes>
     </div>
   );
